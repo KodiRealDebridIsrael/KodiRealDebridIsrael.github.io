@@ -1,5 +1,5 @@
-id="plugin.program.Poodle19Wizard"
-version="1.0.0.3a"
+id="plugin.program.kingvip"
+version="1.0.0"
 zip=""
 
 name="Kodi + Real Debrid Israel Mini Build"
