@@ -46,7 +46,7 @@
     <setting id="musiclibrary.exportoverwrite" default="true">false</setting>
     <setting id="musiclibrary.exportartwork" default="true">false</setting>
     <setting id="musiclibrary.exportskipnfo" default="true">false</setting>
-    <setting id="filelists.showparentdiritems" default="true">true</setting>
+    <setting id="filelists.showparentdiritems">false</setting>
     <setting id="filelists.ignorethewhensorting" default="true">true</setting>
     <setting id="filelists.showextensions" default="true">true</setting>
     <setting id="filelists.showaddsourcebuttons" default="true">true</setting>
