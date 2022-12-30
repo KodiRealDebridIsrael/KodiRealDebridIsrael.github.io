@@ -1,5 +1,5 @@
-id="plugin.program.kingvip"
-version="1.0.0"
+id="plugin.program.bar-build"
+version="1.4.9"
 zip=""
 
 name="Kodi + Real Debrid Israel Mini Build"
