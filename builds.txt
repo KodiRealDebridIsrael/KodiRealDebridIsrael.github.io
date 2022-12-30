@@ -1,4 +1,4 @@
-id="plugin.program.kingvip"
+id="plugin.program.kodirealdebridisraelwizard"
 version="1.0.0"
 zip=""
 
