@@ -1,4 +1,4 @@
-name="Kodi + Real Debrid Israel Mini Build"
+name="Kodi Real Debrid Israel Mini Build"
 version="1.0"
 url="https://www.dropbox.com/s/6su4wdsd736t8iy/minibuild.zip?dl=1"
 minor="https://"
@@ -10,4 +10,4 @@ fanart="https://raw.githubusercontent.com/KodiRealDebridIsrael/KodiRealDebridIsr
 preview="http://"
 adult="no"
 info="http://"
-description="Kodi + Real Debrid Israel Mini Build"
+description="Kodi Real Debrid Israel Mini Build"
