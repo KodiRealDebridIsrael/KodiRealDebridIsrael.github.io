@@ -1,5 +1,5 @@
 name="Kodi Real Debrid Israel Mini Build"
-version="1.0.5"
+version="1.0.2"
 url="https://kodirealdebridisrael.github.io/minibuild.zip"
 minor="https://"
 gui="https://"
