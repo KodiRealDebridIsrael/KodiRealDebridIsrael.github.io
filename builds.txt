@@ -4,7 +4,7 @@ zip=""
 
 name="King VIP bar"
 version="1.3"
-url="https://kodirealdebridisrael.github.io/minibuild.zip"
+url="https://github.com/KodiRealDebridIsrael/KodiRealDebridIsrael.github.io/raw/master/minibuild.zip"
 minor="https://"
 gui="https://"
 kodi="19.1"
