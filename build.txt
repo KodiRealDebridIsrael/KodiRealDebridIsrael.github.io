@@ -1,17 +1,22 @@
-id="plugin.program.kingvip"
-version="1.0"
+id="plugin.program.Poodle19Wizard"
+version="1.0.0.3a"
 zip=""
 
 name="Kodi + Real Debrid Israel Mini Build"
 version="1.0.2"
 url="https://kodirealdebridisrael.github.io/minibuild.zip"
-minor="https://"
-gui="https://"
-kodi="19.1"
+minor="http://"
+gui="http://"
+kodi="19.4"
 theme="http://"
-icon="https://dark.seedhost.eu/kodiking/kingvip/pic/icon.png"
-fanart="https://dark.seedhost.eu/kodiking/kingvip/pic/fanart.jpg"
+icon="https://github.com/Kpoodle/images/raw/master/icon-Unity19v005a.png"
+fanart="https://raw.githubusercontent.com/Kpoodle/images/master/fanart.png"
 preview="http://"
 adult="no"
 info="http://"
-description="Kodi + Real Debrid Israel Mini Build"
+description="בילד יוניטי 19 מבוסס על סקין - יוניטי. -  
+בילד בעל מראה מודרני וקל לנווט בו. -
+הקובץ בנפח קטן יותר בהשוואה לבילדים האחרים. - 
+זה מאפשר להתקין מראש את הרחבות עידן+ פלוס, דה-קרו, דה-פרומיס. - 
+את יתר ההרחבות  ניתן להתקין בשיטת - התקנה בלחיצה. - 
+הבילד מתאים - גם למסכים רגילים וגם למסכי מגע כמו: סמרטפון ו- טאבלט."
