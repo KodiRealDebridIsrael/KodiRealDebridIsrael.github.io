@@ -49,45 +49,9 @@ KEEPTRAKT      = wiz.getS('keepdebrid')
 REALSAVE       = wiz.getS('debridlastsave')
 COLOR1         = uservar.COLOR1
 COLOR2         = uservar.COLOR2
-ORDER          = ['fenrd', 'fenad', 'fenpm', 'mando', 'premiumizer', 'serenrd', 'serenpm', 'rurlrd', 'rurlpm','shadowrd', 'myaccountsrd', 'myaccountspm', 'myaccountsad', 'urlrd', 'urlpm']
+ORDER          = ['mando', 'premiumizer', 'serenrd', 'serenpm', 'rurlrd', 'rurlpm','shadowrd', 'myaccountsrd', 'myaccountspm', 'myaccountsad', 'urlrd', 'urlpm']
 
 DEBRIDID = {
-    'fenrd': {
-        'name'     : 'Fen RD',
-        'plugin'   : 'plugin.video.fen',
-        'saved'    : 'fenrd',
-        'path'     : os.path.join(ADDONS, 'plugin.video.fen'),
-        'icon'     : os.path.join(ADDONS, 'plugin.video.fen', 'icon.png'),
-        'fanart'   : os.path.join(ADDONS, 'plugin.video.fen', 'fanart.png'),
-        'file'     : os.path.join(REALFOLD, 'fen_rd'),
-        'settings' : os.path.join(ADDOND, 'plugin.video.fen', 'settings.xml'),
-        'default'  : 'rd.username',
-        'data'     : ['rd.username', 'rd.token', 'rd.auth', 'rd.client_id', 'rd.refresh', 'rd.secret'],
-        'activate' : 'RunPlugin(plugin://plugin.video.fen/?mode=real_debrid.authenticate)'},
-    'fenad': {
-        'name'     : 'Fen AD',
-        'plugin'   : 'plugin.video.fen',
-        'saved'    : 'fenad',
-        'path'     : os.path.join(ADDONS, 'plugin.video.fen'),
-        'icon'     : os.path.join(ADDONS, 'plugin.video.fen', 'icon.png'),
-        'fanart'   : os.path.join(ADDONS, 'plugin.video.fen', 'fanart.png'),
-        'file'     : os.path.join(REALFOLD, 'fen_ad'),
-        'settings' : os.path.join(ADDOND, 'plugin.video.fen', 'settings.xml'),
-        'default'  : 'ad.account_id',
-        'data'     : ['ad.account_id', 'ad.token'],
-        'activate' : 'RunPlugin(plugin://plugin.video.fen/?mode=alldebrid.authenticate)'},
-     'fenpm': {
-        'name'     : 'Fen PM',
-        'plugin'   : 'plugin.video.fen',
-        'saved'    : 'fenpm',
-        'path'     : os.path.join(ADDONS, 'plugin.video.fen'),
-        'icon'     : os.path.join(ADDONS, 'plugin.video.fen', 'icon.png'),
-        'fanart'   : os.path.join(ADDONS, 'plugin.video.fen', 'fanart.png'),
-        'file'     : os.path.join(REALFOLD, 'fen_pm'),
-        'settings' : os.path.join(ADDOND, 'plugin.video.fen', 'settings.xml'),
-        'default'  : 'pm.account_id',
-        'data'     : ['pm.account_id', 'pm.token'],
-        'activate' : 'RunPlugin(plugin://plugin.video.fen/?mode=premiumize.authenticate)'},
 	'mando': {
 		'name'     : 'Mando',
 		'plugin'   : 'plugin.video.mando',
