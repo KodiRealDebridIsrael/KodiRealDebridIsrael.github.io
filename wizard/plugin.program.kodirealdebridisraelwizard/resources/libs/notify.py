@@ -52,8 +52,7 @@ USERDATA       = os.path.join(HOME,     'userdata')
 PLUGIN         = os.path.join(ADDONS,   ADDON_ID)
 PACKAGES       = os.path.join(ADDONS,   'packages')
 ADDONDATA      = os.path.join(USERDATA, 'addon_data', ADDON_ID)
-#FANART         = os.path.join(ADDONPATH,   'fanart.jpg')
-FANART         = transPath('special://home/addons/plugin.program.kodirealdebridisraelwizard/fanart.jpg')
+FANART         = os.path.join(ADDONPATH,   'fanart.jpg')
 ICON           = os.path.join(ADDONPATH,   'icon.png')
 ART            = os.path.join(ADDONPATH,   'resources', 'art')
 SKINFOLD       = os.path.join(ADDONPATH,   'resources', 'skins', 'DefaultSkin', 'media')
@@ -630,7 +629,7 @@ def updateWindow(name='Testing Window', current='1.0', new='1.1', icon=ICON, fan
             self.new = kwargs['new']
             self.icon = kwargs['icon']
             self.fanart = kwargs['fanart']
-            self.msgupdate  = "עדכון גרסה חדשה זמינה לבילד:\n[COLOR %s]%s[/COLOR]\n\nגרסת בילד נוכחית: v[COLOR %s]%s[/COLOR]\nגרסת בילד עדכנית: v[COLOR %s]%s[/COLOR]\n\n[COLOR %s]*חשוב לעדכן על מנת להנות מתיקונים וחידושים![/COLOR]" % (COLOR1, self.name, COLOR1, self.current, COLOR1, self.new, COLOR1)
+            self.msgupdate  = "עדכון גרסה חדשה זמינה לבילד:\n[COLOR %s]%s[/COLOR]\n\nגרסת בילד נוכחית: v[COLOR %s]%s[/COLOR]\nגרסת בילד עדכנית: v[COLOR %s]%s[/COLOR]\n\n[COLOR %s]*מומלץ לעדכן! התעדכנו בשינויים בקבוצת הטלגרם שלנו.[/COLOR]" % (COLOR1, self.name, COLOR1, self.current, COLOR1, self.new, COLOR1)
             self.msgcurrent = "Running latest version of installed build:\n[COLOR %s]%s[/COLOR]\n\nCurrent Version: v[COLOR %s]%s[/COLOR]\nLatest Version: v[COLOR %s]%s[/COLOR]\n\n[COLOR %s]*Recommended: Fresh install[/COLOR]" % (COLOR1, self.name, COLOR1, self.current, COLOR1, self.new, COLOR1)
 
         def onInit(self):
