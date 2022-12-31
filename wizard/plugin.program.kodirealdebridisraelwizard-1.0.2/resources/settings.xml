@@ -79,7 +79,7 @@
         <setting id="keepadvanced" type="bool" label="Keep My AdvancedSettings.xml" default="false"/>
         <setting id="keepmyvideos" type="bool" label="Keep MyVideos.db" default="false"/>
         <setting id="keeppvr" type="bool" label="Keep pvr.iptvsimple" default="false"/>
-        <setting id="keeprepos" type="bool" label="Keep Installed Repositories" default="true"/>
+        <setting id="keeprepos" type="bool" label="Keep Installed Repositories" default="false"/>
         <setting id="keepsuper" type="bool" label="Keep Super Favourites" default="false"/>
         <setting id="keepwhitelist" type="bool" label="Keep My Whitelist Addons" default="false"/>
         <setting type="lsep" label="Third Party Wizard Support:"/>
