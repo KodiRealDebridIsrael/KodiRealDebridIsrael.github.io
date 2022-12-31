@@ -88,7 +88,7 @@ CONTACTFANART  = 'https://'
 #        Auto Update For Those With No Repo             #
 #########################################################
 # Enable Auto Update 'Yes' or 'No'
-AUTOUPDATE     = 'No'
+AUTOUPDATE     = 'Yes'
 # Url to wizard version
 WIZARDFILE     = BUILDFILE
 #########################################################

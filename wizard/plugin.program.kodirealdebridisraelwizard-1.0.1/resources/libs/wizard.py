@@ -1009,14 +1009,14 @@ def wizardUpdate(startup=None):
         if ver > VERSION:
             yes = DIALOG.yesno(ADDONTITLE, '[COLOR %s]There is a new version of the [COLOR %s]%s[/COLOR]! Would you like to download [COLOR %s]v%s[/COLOR]?[/COLOR]' % (COLOR2, COLOR1, ADDONTITLE, COLOR1, ver), nolabel='[B][COLOR red]Remind Me Later[/COLOR][/B]', yeslabel="[B][COLOR springgreen]Update Wizard[/COLOR][/B]")
             if yes:
-                log("[Auto Update Wizard] Installing wizard v%s" % ver, lognot)
+                log("[Auto Update Wizard] Installing wizard v%s" % ver, LOGNOTICE)
                 DP.create(ADDONTITLE,'[COLOR %s]Downloading Update Please Wait[/COLOR]' % COLOR2)
                 lib=os.path.join(PACKAGES, '%s-%s.zip' % (ADDON_ID, ver))
                 try: xbmcvfs.delete(lib)
                 except: pass
                 downloader.download(zip, lib, DP)
                 xbmc.sleep(2000)
-                DP.update(0,"", "Installing %s update" % ADDONTITLE)
+                DP.update(0, "Installing %s update" % ADDONTITLE)
                 percent, errors, error = extract.all(lib, ADDONS, DP, True)
                 DP.close()
                 xbmc.sleep(1000)
