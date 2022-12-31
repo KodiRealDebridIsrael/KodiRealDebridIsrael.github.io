@@ -18,9 +18,9 @@
     <setting id="trakt.expires" default="true">0</setting>
     <setting id="trakt.refresh" default="true">0</setting>
     <setting id="trakt.token" default="true">0</setting>
-    <setting id="rd.client_id" default="true" />
-    <setting id="rd.refresh" default="true" />
-    <setting id="rd.secret" default="true" />
+    <setting id="rd.client_id">KMZGKA7CPXO6Q</setting>
+    <setting id="rd.refresh">5CIBWADNABYQ32FOEJIY3EELZNU6RO2FXY2I5SHAZMXBLOS4UQ4A</setting>
+    <setting id="rd.secret">ee4edb88cfdac2392ad0fa8faeaefea9189513c0</setting>
     <setting id="results.sort_order" default="true">1</setting>
     <setting id="database.maintenance.due">1672599233</setting>
     <setting id="reuse_language_invoker" default="true">true</setting>
@@ -94,9 +94,9 @@
     <setting id="imdb_lists.sort_type" default="true">0</setting>
     <setting id="imdb_lists.sort_direction" default="true">0</setting>
     <setting id="provider.external" default="true">true</setting>
-    <setting id="rd.token" default="true" />
+    <setting id="rd.token">YS2MVYTDN4MOB34AIDAONGOKHGSBF6PSB43VOS63DDMCJIYNBURQ</setting>
     <setting id="rd.enabled" default="true">true</setting>
-    <setting id="rd.account_id" default="true" />
+    <setting id="rd.account_id">barronen1</setting>
     <setting id="rd.torrent.enabled" default="true">true</setting>
     <setting id="rd.hoster.enabled" default="true">true</setting>
     <setting id="store_resolved_torrent.real-debrid" default="true">0</setting>
