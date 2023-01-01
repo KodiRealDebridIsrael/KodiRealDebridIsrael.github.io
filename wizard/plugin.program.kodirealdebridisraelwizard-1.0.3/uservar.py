@@ -11,7 +11,7 @@ ART            = os.path.join(PATH, 'resources', 'art')
 #########################################################
 #        User Edit Variables                            #
 #########################################################
-ADDONTITLE     = '[COLOR lightblue]Kodi + Real Debrid Israel Mini Build Wizard[/COLOR]'
+ADDONTITLE     = '[COLOR lightblue]Kodi + Real Debrid Israel Build Wizard[/COLOR]'
 BUILDERNAME    = '[COLOR lightblue]Kodi + Real Debrid Israel[/COLOR]'
 EXCLUDES       = [ADDON_ID, 'script.module.kodi-six', 'script.module.six']
 # Enable/Disable the text file caching with 'Yes' or 'No' and age being how often it rechecks in minutes

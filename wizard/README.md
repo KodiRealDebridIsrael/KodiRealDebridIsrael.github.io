@@ -1,13 +1,13 @@
-Mini Build + Add-Ons Repository for Kodi + Real Debrid Israel Telegram Group:
+# Build + Add-Ons Repository for Kodi + Real Debrid Israel
 
-https://t.me/+EvmdGJHDCnBiMzRk
+Telegram Group:
+http://bit.ly/kodi7rd
 
-
-For Addons: Kodi File Manager > Add Source:
-
-https://kodirealdebridisrael.github.io/
-
-For Mini Build Wizard: Kodi File Manager > Add Source:
-
+# For Build Wizard:
+Kodi File Manager > Add Source:
 https://kodirealdebridisrael.github.io/wizard/
+
+# For Addons:
+Kodi File Manager > Add Source:
+https://kodirealdebridisrael.github.io/
 
