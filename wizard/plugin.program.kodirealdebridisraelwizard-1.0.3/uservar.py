@@ -70,7 +70,7 @@ THEME2         = '[COLOR '+COLOR2+']%s[/COLOR]'
 # Alternate items      / %s is the menu item and is required
 THEME3         = '[COLOR '+COLOR1+']%s[/COLOR]'
 # Current Build Header / %s is the menu item and is required
-THEME4         = '[COLOR '+COLOR1+']מיני בילד נוכחי:[/COLOR] [COLOR '+COLOR2+']%s[/COLOR]'
+THEME4         = '[COLOR '+COLOR1+']גרסת בילד נוכחי:[/COLOR] [COLOR '+COLOR2+']%s[/COLOR]'
 # Current Theme Header / %s is the menu item and is required
 THEME5         = '[COLOR '+COLOR1+']Current Theme:[/COLOR] [COLOR '+COLOR2+']%s[/COLOR]'
 
