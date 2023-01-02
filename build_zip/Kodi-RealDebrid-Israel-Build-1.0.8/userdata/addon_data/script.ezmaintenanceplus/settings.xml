@@ -4,10 +4,10 @@
     <setting id="filesize_alert">200</setting>
     <setting id="packagenumbers_alert">50</setting>
     <setting id="filesizethumb_alert">500</setting>
-    <setting id="enable_wiz1">true</setting>
-    <setting id="name1">Kodi + Real Debrid Israel Mini Build</setting>
-    <setting id="url1">https://kodirealdebridisrael.github.io/minibuild_zip/minibuild.zip</setting>
-    <setting id="img1">https://i.imgur.com/XqEmKlz.jpeg</setting>
+    <setting id="enable_wiz1" default="true">false</setting>
+    <setting id="name1" default="true">name</setting>
+    <setting id="url1" default="true">https://</setting>
+    <setting id="img1" default="true">special://home/addons/script.ezmaintenanceplus/fanart.jpg</setting>
     <setting id="enable_wiz2" default="true">false</setting>
     <setting id="name2" default="true">name</setting>
     <setting id="url2" default="true">https://</setting>
