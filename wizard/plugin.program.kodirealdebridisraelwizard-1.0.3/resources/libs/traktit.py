@@ -65,7 +65,7 @@ TRAKTID = {
         'file'     : os.path.join(TRAKTFOLD, 'fen_trakt'),
         'settings' : os.path.join(ADDOND, 'plugin.video.fen', 'settings.xml'),
         'default'  : 'trakt.user',
-        'data'     : ['trakt.user', 'trakt.token', 'trakt.refresh',  'trakt.expires'],
+        'data'     : ['trakt.user', 'trakt.token', 'trakt.refresh',  'trakt.expires', 'trakt.indicators_active', 'watched_indicators', 'trakt.sync_refresh_widgets', 'trakt.sync_interval'],
         'activate' : 'RunPlugin(plugin://plugin.video.fen/?mode=trakt_authenticate)'},
 	'mando': {
 		'name'     : 'Mando',

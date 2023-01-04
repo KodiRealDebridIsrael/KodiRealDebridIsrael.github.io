@@ -5,8 +5,8 @@
     <setting id="max_threads" default="true">60</setting>
     <setting id="fen.highlight_name" default="true">[COLOR=dodgerblue]dodgerblue[/COLOR]</setting>
     <setting id="use_skin_fonts" default="true">true</setting>
-    <setting id="trakt.indicators_active">true</setting>
-    <setting id="watched_indicators">1</setting>
+    <setting id="trakt.indicators_active" default="true">false</setting>
+    <setting id="watched_indicators" default="true">0</setting>
     <setting id="amble.indicators" default="true" />
     <setting id="trakt.sync_interval" default="true">30</setting>
     <setting id="trakt.sync_refresh_widgets" default="true">false</setting>

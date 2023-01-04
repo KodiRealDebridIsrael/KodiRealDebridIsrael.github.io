@@ -62,7 +62,7 @@ DEBRIDID = {
         'file'     : os.path.join(REALFOLD, 'fen_rd'),
         'settings' : os.path.join(ADDOND, 'plugin.video.fen', 'settings.xml'),
         'default'  : 'rd.account_id',
-        'data'     : ['rd.account_id', 'rd.token', 'rd.auth', 'rd.client_id', 'rd.refresh', 'rd.secret'],
+        'data'     : ['rd.account_id', 'rd.token', 'rd.enabled', 'rd.client_id', 'rd.refresh', 'rd.secret'],
         'activate' : 'RunPlugin(plugin://plugin.video.fen/?mode=real_debrid.authenticate)'},
     'fenad': {
         'name'     : 'Fen AD',
