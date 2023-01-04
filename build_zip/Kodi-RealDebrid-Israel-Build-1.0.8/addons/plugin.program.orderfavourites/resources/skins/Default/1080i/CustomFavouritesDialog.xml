@@ -55,7 +55,7 @@
                     <top>0</top>
                     <aligny>center</aligny>
                     <height>70</height>
-                    <label>[B]Order Favourites[/B]</label>
+                    <label>[B]סידור מועדפים[/B]</label>
                     <shadowcolor>black</shadowcolor>
                 </control>
                 <!-- "button overlay to avoid closing in dialog area." -->
@@ -190,7 +190,7 @@
                     <onleft>200</onleft>
                     <onright>100</onright>
                     <textcolor>white</textcolor>
-                    <label>[B]Close[/B]</label>
+                    <label>[B]סגור[/B]</label>
                     <align>center</align>
                     <texturefocus colordiffuse="FF12A0C7">BGWhite.png</texturefocus>
                     <texturenofocus colordiffuse="30FFFFFF">BGWhite.png</texturenofocus>
@@ -200,7 +200,7 @@
                     <onleft>200</onleft>
                     <onright>100</onright>
                     <textcolor>white</textcolor>
-                    <label>[B]Restore...[/B]</label>
+                    <label>[B]שחזר למצב הקיים[/B]</label>
                     <align>center</align>
                     <texturefocus colordiffuse="FF12A0C7">BGWhite.png</texturefocus>
                     <texturenofocus colordiffuse="30FFFFFF">BGWhite.png</texturenofocus>

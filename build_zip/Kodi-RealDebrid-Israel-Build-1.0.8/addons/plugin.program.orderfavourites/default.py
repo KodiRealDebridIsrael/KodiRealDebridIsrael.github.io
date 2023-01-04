@@ -263,16 +263,15 @@ else:
     # Create the menu items.
     xbmcplugin.setContent(PLUGIN_ID, 'files')
 
-    dialogItem = xbmcgui.ListItem('[COLOR lavender][B]Order favourites...[/B][/COLOR]')
+    dialogItem = xbmcgui.ListItem('[COLOR lavender][B]סידור מועדפים[/B][/COLOR]')
     dialogItem.setArt({'thumb': 'DefaultAddonContextItem.png'})
-    dialogItem.setInfo('video', {'plot': 'Open the dialog where you can order your favourites.'})
-    saveExitItem = xbmcgui.ListItem('[COLOR lavender][B]Save and exit[/B][/COLOR]')
+    dialogItem.setInfo('video', {'plot': 'פותח דיאלוג עבור שינוי סדר המועדפים.'})
+    saveExitItem = xbmcgui.ListItem('[COLOR lavender][B]שמור וצא[/B][/COLOR]')
     saveExitItem.setArt({'thumb': 'DefaultAddonsUpdates.png'})
-    saveExitItem.setInfo('video', {'plot': 'Save any changes you made, and reload your Kodi profile '
-                                       'to make the changes visible without having to restart Kodi.'})
-    exitItem = xbmcgui.ListItem('[COLOR lavender][B]Exit only[/B][/COLOR]')
+    saveExitItem.setInfo('video', {'plot': 'שומר את השינויים שבוצעו, ומרענן את קודי ללא צורך בהפעלה מחדש.'})
+    exitItem = xbmcgui.ListItem('[COLOR lavender][B]צא ללא שמירת שינויים[/B][/COLOR]')
     exitItem.setArt({'thumb': 'DefaultFolderBack.png'})
-    exitItem.setInfo('video', {'plot': 'Exit the add-on (same as pressing Back), without saving your changes.'})
+    exitItem.setInfo('video', {'plot': 'יציאה ללא שמירת השינויים.'})
     xbmcplugin.addDirectoryItems(
         PLUGIN_ID,
         (
