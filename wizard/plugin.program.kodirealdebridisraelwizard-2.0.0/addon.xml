@@ -24,6 +24,7 @@
 2.0.0 Wizard + Build
  - BUILD: Added Idan Plus addon and to home page.
  - BUILD: Added order favorites (סידור מועדפים) addon with menus in hebrew.
+ - WIZARD: Many bug fixes.
  - WIZARD: Fully convert wizard to hebrew.
  - WIZARD: Keep all Fen .db files on build install, with option toggle in settings.
  - WIZARD: Remove unnecessary all subs plus "sources.db" file and temp folders.
