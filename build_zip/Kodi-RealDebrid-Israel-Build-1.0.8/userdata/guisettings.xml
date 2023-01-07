@@ -162,7 +162,7 @@
     <setting id="subtitles.stereoscopicdepth" default="true">0</setting>
     <setting id="subtitles.font" default="true">arial.ttf</setting>
     <setting id="subtitles.charset">CP1255</setting>
-    <setting id="subtitles.height">40</setting>
+    <setting id="subtitles.height">38</setting>
     <setting id="subtitles.style" default="true">1</setting>
     <setting id="subtitles.color" default="true">1</setting>
     <setting id="subtitles.opacity" default="true">100</setting>
