@@ -27,7 +27,6 @@
  - WIZARD: Many bug fixes.
  - WIZARD: Fully convert wizard to hebrew.
  - WIZARD: Keep all Fen .db files on build install, with option toggle in settings.
- - WIZARD: Remove unnecessary all subs plus "sources.db" file and temp folders.
  - WIZARD: Fix RD and Trakt Data save parameters to save sessions between build updates better.
 1.0.3 Wizard
  - Now supports saving Real Debrid + Trakt credentials on build update/reinstall.
