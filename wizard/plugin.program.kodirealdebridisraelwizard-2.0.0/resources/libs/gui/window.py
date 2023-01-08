@@ -317,7 +317,7 @@ def show_build_prompt():
 
         def __init__(self, *args, **kwargs):
             self.title = CONFIG.THEME3.format(CONFIG.ADDONTITLE)
-            self.msg = "[COLOR {0}]ברוכים הבאים ל- {1}[/COLOR]\n\n[COLOR {2}]לחץ על [B]תפריט בילדים [/B]לבחירת בילד להתקנה.[/COLOR]".format(CONFIG.COLOR2, CONFIG.ADDONTITLE, CONFIG.COLOR2)
+            self.msg = "[COLOR {0}]ברוכים הבאים ל- {1}[/COLOR]\n\n[COLOR {2}]לחץ על [B]התקנת בילד [/B]להתחלת ההתקנה.[/COLOR]".format(CONFIG.COLOR2, CONFIG.ADDONTITLE, CONFIG.COLOR2)
             self.msg = CONFIG.THEME2.format(self.msg)
 
         def onInit(self):

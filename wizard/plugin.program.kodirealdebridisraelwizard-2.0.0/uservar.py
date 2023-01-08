@@ -42,18 +42,18 @@ ADVANCEDFILE = 'http://'
 # Example:  ICONMAINT     = os.path.join(ART, 'mainticon.png')
 #           ICONSETTINGS  = 'https://www.yourhost.com/repo/wizard/settings.png'
 # Leave as http:// for default icon
-ICONBUILDS = os.path.join(CUSTOM_ART, 'builds.png')
-ICONMAINT = os.path.join(CUSTOM_ART, 'maintenance.png')
-ICONSPEED = os.path.join(CUSTOM_ART, 'speed.png')
-ICONAPK = os.path.join(CUSTOM_ART, 'apkinstaller.png')
-ICONADDONS = os.path.join(CUSTOM_ART, 'addoninstaller.png')
-ICONYOUTUBE = os.path.join(CUSTOM_ART, 'youtube.png')
-ICONSAVE = os.path.join(CUSTOM_ART, 'savedata.png')
-ICONTRAKT = os.path.join(CUSTOM_ART, 'keeptrakt.png')
-ICONREAL = os.path.join(CUSTOM_ART, 'keepdebrid.png')
-ICONLOGIN = os.path.join(CUSTOM_ART, 'keeplogin.png')
-ICONCONTACT = os.path.join(CUSTOM_ART, 'information.png')
-ICONSETTINGS = os.path.join(CUSTOM_ART, 'settings.png')
+ICONBUILDS = os.path.join(CUSTOM_ART, 'builds.jpg')
+ICONMAINT = os.path.join(CUSTOM_ART, 'maintenance.jpg')
+ICONSPEED = os.path.join(CUSTOM_ART, 'speed.jpg')
+ICONAPK = os.path.join(CUSTOM_ART, 'apkinstaller.jpg')
+ICONADDONS = os.path.join(CUSTOM_ART, 'addoninstaller.jpg')
+ICONYOUTUBE = os.path.join(CUSTOM_ART, 'youtube.jpg')
+ICONSAVE = os.path.join(CUSTOM_ART, 'savedata.jpg')
+ICONTRAKT = os.path.join(CUSTOM_ART, 'keeptrakt.jpg')
+ICONREAL = os.path.join(CUSTOM_ART, 'keepdebrid.jpg')
+ICONLOGIN = os.path.join(CUSTOM_ART, 'keeplogin.jpg')
+ICONCONTACT = os.path.join(CUSTOM_ART, 'information.jpg')
+ICONSETTINGS = os.path.join(CUSTOM_ART, 'settings.jpg')
 # Hide the section separators 'Yes' or 'No'
 HIDESPACERS = 'No'
 # Character used in separator
@@ -82,7 +82,7 @@ HIDECONTACT = 'Yes'
 # You can add \n to do line breaks
 CONTACT = 'Thank you for choosing OpenWizard'
 # Images used for the contact window.  http:// for default icon and fanart
-CONTACTICON = os.path.join(ART, 'qricon.png')
+CONTACTICON = os.path.join(ART, 'qricon.jpg')
 CONTACTFANART = 'http://'
 #########################################################
 

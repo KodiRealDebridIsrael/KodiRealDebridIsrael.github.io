@@ -67,8 +67,7 @@ class MainMenu:
         else:
             directory.add_dir('None', {'mode': 'builds'}, themeit=CONFIG.THEME4)
         directory.add_separator()
-        directory.add_dir('התקנות בילדים', {'mode': 'builds'}, icon=CONFIG.ICONBUILDS, themeit=CONFIG.THEME1)
-        #directory.add_dir('Maintenance', {'mode': 'maint'}, icon=CONFIG.ICONMAINT, themeit=CONFIG.THEME1)
+        directory.add_dir('התקנת בילד', {'mode': 'builds'}, icon=CONFIG.ICONBUILDS, themeit=CONFIG.THEME1)
         #if (tools.platform() == 'android' or CONFIG.DEVELOPER == 'true'):
         #    directory.add_dir('APK Installer', {'mode': 'apk'}, icon=CONFIG.ICONAPK, themeit=CONFIG.THEME1)
         #if tools.open_url(CONFIG.ADDONFILE, check=True) or os.path.exists(os.path.join(CONFIG.ADDON_PATH, 'resources', 'text', 'addons.json')):
@@ -79,6 +78,7 @@ class MainMenu:
         if CONFIG.HIDECONTACT == 'No':
             directory.add_file('Contact', {'mode': 'contact'}, icon=CONFIG.ICONCONTACT, themeit=CONFIG.THEME1)
         directory.add_separator()
+        directory.add_dir('תחזוקה', {'mode': 'maint'}, icon=CONFIG.ICONMAINT, themeit=CONFIG.THEME1)
         #directory.add_file('Upload Log File', {'mode': 'uploadlog'}, icon=CONFIG.ICONMAINT, themeit=CONFIG.THEME1)
         directory.add_file('View Errors in Log: {0}'.format(errorsfound), {'mode': 'viewerrorlog'}, icon=CONFIG.ICONMAINT,
                            themeit=CONFIG.THEME1)
