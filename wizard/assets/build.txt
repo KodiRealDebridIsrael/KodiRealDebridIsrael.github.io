@@ -1,6 +1,6 @@
 id="plugin.program.kodirealdebridisraelwizard"
-version="2.0.0"
-zip="https://kodirealdebridisrael.github.io/wizard/Kodi-RealDebrid-Israel-Wizard-2.0.0.zip"
+version="2.0.1"
+zip="https://kodirealdebridisrael.github.io/wizard/Kodi-RealDebrid-Israel-Wizard-2.0.1.zip"
 
 name="Kodi Real Debrid Israel Build"
 version="2.0.1"
