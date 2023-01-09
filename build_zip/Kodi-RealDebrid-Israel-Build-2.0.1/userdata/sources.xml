@@ -19,6 +19,11 @@
             <allowsharing>true</allowsharing>
         </source>
         <source>
+            <name>repository.KodiRealDebridIsrael-WIZARD</name>
+            <path pathversion="1">https://kodirealdebridisrael.github.io/wizard/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
             <name>repository.Fen</name>
             <path pathversion="1">https://tikipeter.github.io/</path>
             <allowsharing>true</allowsharing>
