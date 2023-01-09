@@ -9,7 +9,7 @@ Kodi File Manager > Add Source:
 
 https://kodirealdebridisrael.github.io/wizard/
 
-# For Addons:
+# Kodi + Real Debrid Israel Repository:
 Kodi File Manager > Add Source:
 
 https://kodirealdebridisrael.github.io/
